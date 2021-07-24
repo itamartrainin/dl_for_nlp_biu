@@ -1,0 +1,10 @@
+Itamar Trainin 315425967
+1. I was not able to exceed the accuracies of the task using the mlp model. On some runs I was able to get a little
+   higher score, however this was not the frequent case.
+2. I was able to get around 70% for the log-linear and the mlp1 models. This is obviously not as good as the bigrams
+   model, this can be easily seen also when comparing the letter frequencies to letter-bigrams frequencies. In which
+   case you will see that the representations of texts from different languages using unigrams are more similar to each
+   other than the bigram representations. To get better results one should rather consider letter trigrams.
+3. For learning rate of 0.1 it took the mlp1 39 iteration to successfully guess correctly the xor problem, however it is
+   only on the 85th iteration where the guesses stabilized on correctly guessing all cases. This could be improve by
+   choosing the seed better.

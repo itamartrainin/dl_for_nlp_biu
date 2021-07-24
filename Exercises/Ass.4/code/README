@@ -1,0 +1,10 @@
+There are three code files:
+
+    1. preprocessing.py - gave us some utils of saving the data examples and the embeding matrix to our data structure of tensors.
+    2. model.py - contains the class of our model.
+    3. train.py - our main file to run which imports the previous two. Its configured by default to give us the best results.
+
+To run the model with best parameters, all you need to do is to make sure that the data is in the right path: ../data relatively to the code's location.
+
+For running the code, all you need to do is to write in the terminal:
+python train.py
